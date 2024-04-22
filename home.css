@@ -39,6 +39,26 @@
     line-height: 35px;
 }
 
+.button-order1 {
+    border-style: none;
+    border: 1px solid rgb(89, 31, 11);
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(89, 31, 11);
+    color: rgb(255, 227, 203);
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 25px;
+    transition: backgroud-color 0.5s, color 0.5s;
+}
+
+.button-order1:hover
+{
+    background-color: rgb(255, 227, 203);
+    color: rgb(89, 31, 11);
+    cursor: pointer;
+}
+
 .button-order {
     border-style: none;
     border: 1px solid rgb(89, 31, 11);
